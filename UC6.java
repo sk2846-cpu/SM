@@ -1,21 +1,21 @@
-public class OOPSBannerApp {
+public class UC6{
     public static String[] getOPattern() {
         return new String[] {
-            "  ***  ",
-            " *   * ",
-            "*     *",
-            "*     *",
-            "*     *",
-            " *   * ",
-            "  ***  "
+            "  *****  ",
+            " **   ** ",
+            "**     **",
+            "**     **",
+            "**     **",
+            " **   ** ",
+            "  *****  "
         };
     }
     public static String[] getPPattern() {
         return new String[] {
-            "**  ",
-            "*   * ",
-            "*   * ",
-            "**  ",
+            "******  ",
+            "**   ** ",
+            "**   ** ",
+            "******  ",
             "**      ",
             "**      ",
             "**      "
@@ -23,13 +23,13 @@ public class OOPSBannerApp {
     }
     public static String[] getSPattern() {
         return new String[] {
-            " ** ",
+            " ****** ",
             "**      ",
             "**      ",
-            " ***  ",
+            " *****  ",
             "     ** ",
             "     ** ",
-            " ** "
+            " ****** "
         };
     }
     public static void main(String[] args) {
