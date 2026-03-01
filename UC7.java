@@ -24,16 +24,34 @@ public class UC7{
     public static void main(String[] args) {
         // 2. Instantiate Character Objects
         CharacterPattern o = new CharacterPattern('O', new String[]{
-            "  *** ", " *   * ", " *   * ", " *   * ", " *   * ", " *   * ", "  *** "
-        });
-        
-        CharacterPattern p = new CharacterPattern('P', new String[]{
-            " ***** ", " * * ", " * * ", " ***** ", " * ", " * ", " * "
-        });
-        
-        CharacterPattern s = new CharacterPattern('S', new String[]{
-            "  **** ", " * ", " * ", "  *** ", "      *", "      *", " **** "
-        });
+			"  ***  ",
+			" *   * ",
+			" *   * ",
+			" *   * ",
+			" *   * ",
+			" *   * ",
+			"  ***  "
+		});
+
+		CharacterPattern p = new CharacterPattern('P', new String[]{
+			" ****  ",
+			" *   * ",
+			" *   * ",
+			" ****  ",
+			" *     ",
+			" *     ",
+			" *     "
+		});
+
+		CharacterPattern s = new CharacterPattern('S', new String[]{
+			"  **** ",
+			" *     ",
+			" *     ",
+			"  ***  ",
+			"     * ",
+			"     * ",
+			" ****  "
+		});
 
         // 3. Build the Banner using the Objects
         // We now pull data from the objects 'o', 'p', and 's'
